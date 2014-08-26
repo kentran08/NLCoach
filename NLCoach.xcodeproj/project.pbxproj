@@ -21,6 +21,7 @@
 		65C24F4B19AD153C009C41E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C24F2D19AD153C009C41E5 /* UIKit.framework */; };
 		65C24F5319AD153C009C41E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65C24F5119AD153C009C41E5 /* InfoPlist.strings */; };
 		65C24F5519AD153C009C41E5 /* NLCoachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C24F5419AD153C009C41E5 /* NLCoachTests.m */; };
+		65C24F6019AD18CC009C41E5 /* OKFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C24F5F19AD18CC009C41E5 /* OKFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		65C24F5019AD153C009C41E5 /* NLCoachTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NLCoachTests-Info.plist"; sourceTree = "<group>"; };
 		65C24F5219AD153C009C41E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65C24F5419AD153C009C41E5 /* NLCoachTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLCoachTests.m; sourceTree = "<group>"; };
+		65C24F5E19AD18CC009C41E5 /* OKFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKFactory.h; sourceTree = "<group>"; };
+		65C24F5F19AD18CC009C41E5 /* OKFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				65C24F3B19AD153C009C41E5 /* Main.storyboard */,
 				65C24F3E19AD153C009C41E5 /* OKViewController.h */,
 				65C24F3F19AD153C009C41E5 /* OKViewController.m */,
+				65C24F5E19AD18CC009C41E5 /* OKFactory.h */,
+				65C24F5F19AD18CC009C41E5 /* OKFactory.m */,
 				65C24F4119AD153C009C41E5 /* Images.xcassets */,
 				65C24F3019AD153C009C41E5 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C24F6019AD18CC009C41E5 /* OKFactory.m in Sources */,
 				65C24F3A19AD153C009C41E5 /* OKAppDelegate.m in Sources */,
 				65C24F3619AD153C009C41E5 /* main.m in Sources */,
 				65C24F4019AD153C009C41E5 /* OKViewController.m in Sources */,
